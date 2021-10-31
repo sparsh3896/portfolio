@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  box-sizing: border-box;
+  font-family: regular_p;
+  /* color: #64113f; */
+}
+@font-face {
+  font-family: regular_p;
+  src: url(./fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: bold_p;
+  src: url(./fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: semibold_p;
+  src: url(./fonts/Poppins-SemiBold.ttf);
+}
+
+.portfolio{
+    height: 100vh;
+    width: 100%;
+    background-image: url('./img/1635635243220.jpeg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:0rem -18rem;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.first-page{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    align-items: center;
+    padding:1rem 4rem;
+    
+    
+}
+
+.logo{
+    /* margin: 0rem 4rem; */
+    font-family: semibold_p;
+    font-size: 1.9rem;
+    /* padding-top: 1rem; */
+    color: whitesmoke;
+    z-index: 3;
+    /* filter:drop-shadow(08px 8px 10px rgba(0, 0, 0, 0.5), 20px 20px 90px rgba(0, 0, 0, 0.5)); */
+
+}
+
+.portfolio::before{
+    position: absolute;
+    top: 0;
+    content:'';
+    height: 100%;
+    width: 100%;
+    background-color: #00000077;
+    z-index: 1;
+}
+
+span{
+    color: crimson;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    width:40%;
+    color: white;
+    font-family: regular_p;
+    text-decoration: none;
+}
+
+
+.portfolio li{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.portfolio a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.content-wrap{
+    /* align-items: center; */
+    /* display: flex; */
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding:4rem;
+
+}
+
+.content{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+.line-1{
+    font-size: 1.3rem;
+}
+
+.line-2{
+    font-size: 3rem;
+    font-family: bold_p;
+}
+
+.line-3{
+    font-size: 2.2rem;
+    font-family: semibold_p;
+}
+
+.content a{
+    margin: 1.5rem 0;
+  border: 1px solid crimson;
+  font-size: 1rem;
+  color:whitesmoke;
+  background-color: crimson;
+  padding: 0.7rem 0;
+  /* background-color: transparent; */
+  border-radius: 0.3rem;
+  font-family: semibold_p;
+  display:flex;
+  justify-content: center;
+  width: 30%;
+  /* transition: .3s ease; */
+}
+
+li a:hover{
+    color: crimson;
+}
