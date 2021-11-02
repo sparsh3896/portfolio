@@ -145,3 +145,288 @@ span{
 li a:hover{
     color: crimson;
 }
+
+/* About me start */
+
+.about-me{
+    background-color: white;
+    height: 100vh;
+    margin-top: 5rem;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    color: crimson;
+    text-decoration: li;
+    font-family: semiBold_p;
+}
+
+.sl{
+    color: black;
+}
+
+.about-content{
+    margin: 4rem;
+    display: flex;
+
+}
+
+.about-content-wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.about-img{
+    width: 27rem;
+    height: 27rem;
+    background-image: url(./img/1635634381066.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 1rem ;
+}
+
+.about-rt-content{
+    width: 60%;
+    /* padding: 4.6rem 0rem 4.6rem 4.6rem; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    height: 27rem;
+    text-align: start;
+    margin-left: 2rem;
+}
+
+.about-rt-content a{
+    margin: 3rem 0;
+  border: 1px solid crimson;
+  font-size: 1rem;
+  color:whitesmoke;
+  background-color: crimson;
+  padding: 0.7rem 0;
+  /* background-color: transparent; */
+  border-radius: 0.3rem;
+  font-family: semibold_p;
+  display:flex;
+  justify-content: center;
+  width: 30%;
+  text-decoration: none;
+
+}
+
+.para{
+    padding-top: 1rem;
+}
+
+/* Myservices start  */
+
+.my-services{
+    background-color: black;
+    height: 75vh;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding-bottom: 4rem; */
+    /* margin-top: 5rem; */
+}
+
+.services-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    color: whitesmoke;
+}
+
+.card h3{
+    color: whitesmoke;
+}
+
+
+
+.sl2{
+    color: whitesmoke;
+}
+
+.services-card{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 3rem; */
+}
+
+.card{
+    border: 1px solid gray;
+    width: 25%;
+    height: 16rem;
+    border-radius: .8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 2rem;
+
+    box-shadow: 0px 0px 10px rgba(248, 248, 248, 0.2), 10px 10px 50px rgba(255, 248, 248, 0.2);
+ 
+    
+}
+
+.card:hover{
+    background-color: crimson;
+     transition: 0.3s ease-in;
+  /* background-color: white; */
+  transform: scale(1.05);
+}
+
+.card a:hover{
+    background-color:transparent;
+     transition: 0.3s ease-in;
+  background-color: white;
+  transform: scale(1.05);
+  color: black;
+  border: 1px solid black;
+}
+
+.card:hover .sl3{
+    color: black;
+}
+
+.card .para{
+    color: white;
+}
+
+.sl3{
+    color: crimson;
+}
+
+/* My skills start  */
+
+.my-skills{
+    background-color:white;
+    height: 85vh;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-top: 5rem; */
+}
+
+.skills-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-top: 4rem; */
+}
+
+.skills-header p{
+    font-family: semibold_p;
+}
+
+.skills-lt-content{
+    width: 50%;
+    padding-right: 3rem;
+    /* margin-top: 4rem; */
+}
+
+.skills-lt-content h3{
+    color: black;
+}
+
+.skills-lt-content a{
+    margin: 1.5rem 0;
+  border: 1px solid crimson;
+  font-size: 1rem;
+  color:whitesmoke;
+  background-color: crimson;
+  padding: 0.7rem 0;
+  /* background-color: transparent; */
+  border-radius: 0.3rem;
+  font-family: semibold_p;
+  display:flex;
+  justify-content: center;
+  width: 30%;
+  text-decoration: none;
+}
+
+.skills-rt-content{
+    /* border: 1px solid black; */
+    width: 50%;
+}
+
+.skills-rt-content{
+    background-image: url(./img/Capture-removebg-preview.png);
+    background-size:400px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.team-card {
+    border: 1px solid gray;
+    width: 25%;
+    height: 16rem;
+    border-radius: .8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 3rem 2rem; */
+    justify-content: flex-end;
+    /* position: relative; */
+
+    box-shadow: 0px 0px 10px rgba(248, 248, 248, 0.2), 10px 10px 50px rgba(255, 248, 248, 0.2);
+}
+
+.one{
+    /* border-radius: 10rem; */
+    background-image: url(./img/ads.JPG);
+    background-size: cover;
+    background-position: auto;
+} 
+
+.two{
+    /* border-radius: 10rem; */
+    background-image: url(./img/happy.JPG);
+    background-size: cover;
+    background-position: auto;
+} 
+
+.three{
+    /* border-radius: 10rem; */
+    background-image: url(./img/aman.JPG);
+    background-size: cover;
+    background-position: auto;
+} 
+
+.team-card p{
+    color: black;
+    font-family: bold_p;
+    background-color: whitesmoke;
+    margin-bottom: .5rem;
+    border-radius: .2rem;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2), 10px 10px 50px rgba(0, 0, 0, 0.2);
+    padding: .5rem 1rem;
+}
+
+.team-card:hover{
+     background-color:transparent;
+     transition: 0.5s ease-in;
+  background-color: white;
+  transform: scale(1.05);
+  
+}
+
+.team-card:hover p{
+    background-color: crimson;
+    transition: 0.5s ease-in;
+    color: whitesmoke;
+}
