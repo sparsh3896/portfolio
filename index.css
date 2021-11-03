@@ -27,7 +27,7 @@ body {
     background-image: url('./img/1635635243220.jpeg');
     background-size:cover;
     background-repeat:no-repeat;
-    background-position:0rem -18rem;
+    background-position:center;
     display: flex;
     flex-direction: column;
     
@@ -430,4 +430,115 @@ h2{
     background-color: crimson;
     transition: 0.5s ease-in;
     color: whitesmoke;
+}
+
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    
+    
+    padding: 4rem;
+}
+
+.contact-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.contact-main-content{
+    display: flex;
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.contact-para{
+    padding-right: 2rem;
+    color: black;
+}
+
+.name{
+    margin-top: 2rem;
+    display: flex;
+}
+
+.name-details p{
+    color: black;
+    margin-left: 1rem;
+    font-size: .8rem;
+    color: rgb(37, 36, 36);
+
+}
+
+.head{
+    font-family: bold_p;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-line{
+    display: flex;
+    
+}
+
+.forms{
+    height: 2rem;
+    border-radius: .3rem;
+    padding: 0rem 1rem;
+    margin: .6rem .6rem .6rem 0rem;
+    border:1px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(128, 121, 121, 0.1);
+
+}
+
+.name i{
+    font-size: 2rem;
+    color: crimson;
+
+}
+
+form a{
+    margin: 2rem 0;
+  border: 1px solid crimson;
+  font-size: 1rem;
+  color:whitesmoke;
+  background-color: crimson;
+  padding: 0.7rem 0;
+  /* background-color: transparent; */
+  border-radius: 0.3rem;
+  font-family: semibold_p;
+  display:flex;
+  justify-content: center;
+  width: 30%;
+  text-decoration: none;
+
+}
+
+.right{
+    justify-content: space-between;
+}
+
+footer{
+    padding: 1rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+footer p{
+    color: whitesmoke;
+}
+.foot{
+    color: crimson;
 }
